@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/caoly-info.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/caoly-info",
+      "dest": "/api/caoly-info.js"
+    }
+  ]
+}
